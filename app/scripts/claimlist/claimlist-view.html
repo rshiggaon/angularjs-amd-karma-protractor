@@ -1,0 +1,17 @@
+<div ng-controller="ClaimListController as claimListCtrl">
+    <div>
+        Claim Summary
+    </div>
+
+
+    <div ng-repeat="claim in claimListCtrl.claims | orderBy: 'id'">
+        <div>
+            <div>
+                <span ng-bind="claim.id"></span>
+            </div>
+            <div>
+                <span ng-bind="claim.claimNumber"></span>
+            </div>
+        </div>
+    </div>
+</div>

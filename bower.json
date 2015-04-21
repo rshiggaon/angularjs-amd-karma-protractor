@@ -1,0 +1,19 @@
+{
+    "name": "claims-rwd",
+    "version": "1.0.0",
+    "authors": ["Rajesh Shiggaon <rajesh.x.shiggaon@kp.org>", "SaiSree "],
+    "description": "Claims RWD",
+    "main": "./dist/angular-mustard.js",
+    "private": true,
+    "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"],
+    "dependencies": {
+        "angular": "~1.2.0",
+        "angular-route": "~1.2.14",
+        "jquery": "~2.1.0",
+        "angularAMD": "0.2.1",
+        "requirejs": "~2.1.11"
+    },
+    "devDependencies": {
+        "angular-mocks": "~1.2.0"
+    }
+}
